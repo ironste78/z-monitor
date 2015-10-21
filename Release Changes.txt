@@ -1,0 +1,24 @@
+Z-Monitor has been designed with the following goals in mind:
+
+- For the users:
+	+ Providing a LoWPAN protocol analysis tool, open source, free to use, modular and
+	  extensible and which is not constrained to the use of any specific sniffer hardware.
+	+ Supporting ZigBee and 6LoWPAN protocols’ packets decoding.
+	+ Providing statistical tools for network traffic analysis, to enable live network performance
+	  assessment at run-time.
+	+ Providing a user-friendly, easy-to-use and interactive Graphical User Interface
+	  (GUI), which does not only present decoded packet information to the end-user, but
+	  also can be used as a diagnosis tool to promptly detect networking problems and
+	  unexpected behaviors.
+	+ Being Operating Systems (OS) independent and in particular supporting bothWindows
+	  and Unix-based OS.
+
+    Version 3 offers this new capability:
+	+ Provide distributed sniffing point capability, to monitor large scale networks
+	  widely deployed over sparse geographical areas, using multiple sniffing points, but
+	  presenting the results as if the whole network traffic is captured by a single sniffer
+	  device.
+
+- For the developer:
+Since this release, Z-Monitor becomes open source and new developers are welcome to contribute 
+to the development of the future releases.
