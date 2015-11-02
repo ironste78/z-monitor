@@ -46,6 +46,7 @@ You  need to install the Sniffer Application "packetsniffer/SnifferC.nc" on the 
 This base station aims to bridge the traffic between the WSN and the PC.
 
 There are two possible ways to run the sniffing application:
+
 	1. By run JAR file: from Z-Monitor directory in a command line as follows:
 		java -jar "ZM/Zmonitor.jar"
 
@@ -53,9 +54,10 @@ There are two possible ways to run the sniffing application:
 		java zmonitor
 
 To enable the different operation modes of Z-Monitor, we implemented a boot up choice where the user can select which mode to run, when launching the execution of Z-Monitor. In particular, the user should choose between the following options:
-    1. The Standalone version:
+
+	1. The Standalone version:
 		it is the traditional mode, where a node acts as a sniffer showing the local captured and analyzed packets.
-	
+
 	2. The Provider version:
 		same as standalone, but forced to save packets into a local or remote Z-Server.
 	
@@ -67,6 +69,7 @@ VI - ZServer installation:
 In order to be able to work with the distributed sniffing feature of Z-Monitor, it is necessary to create a ZServer, which is a local or remote server machine, hosting the database where packets are stored.
 
 The easiest way to get your own Z-Server is to follow the next steps by issuing commands to the terminal (Ubuntu based):
+
 	1. Install mysql server:
 		sudo aptitude install mysql-common mysql-server
 		
